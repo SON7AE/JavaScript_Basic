@@ -21,6 +21,6 @@ Math.pow(3, 1 / 3); // 3의 세제곱근
 // Date는 객체이지만, 타임스탬프인 숫자 표현 역시 가지고 있으므로 1970년 1월 1일로부터 몇 밀리초가 지났는지 등을 계산할 수 있다.
 
 let timestamp = Date.now(); // 현재 시간을 타임스탬프(숫자) 형식으로 표시한다.
-let now = new Date(); // 현재 시간을 Date 객체로 표시한다.
-let ms = now.getTime(); // 밀리초 타임스탬프로 변환한다.
-let iso = now.toISOString(); // 표준 형식의 문자열로 변환한다.
+let now = new Date(); // 현재 시간을 Date 객체로 표시
+let ms = now.getTime(); // 밀리초 타임스탬프로 변환
+let iso = now.toISOString(); // 표준 형식의 문자열로 변환
