@@ -26,3 +26,19 @@ msg.substring(1, 4); // => "ell" : 두 번째, 세 번째, 네 번째 문자
 msg.slice(1, 4); // => 'ell' : 같은 결과
 msg.slice(-3); // 'rld' : 마지막 세문자
 msg.split(","); // ["hello", "world"]
+
+// 문자열을 변경한다.
+msg.replace(a, b); // a를 b로 바꿔 출력
+msg.toLowerCase(); // 소문자로 변경
+msg.toUpperCase(); // 대문자로 변경
+
+// 공백제거
+" test ".trim(); // 앞뒤 공백을 제거
+" test ".trimStart(); // 왼쪽 공백을 제거
+" test ".trimEnd(); // 오른쪽 공백을 제거
+
+// 자바스크립트의 문자열은 불변이라는 사실을 잊지 마라.
+// replace()나 toUpperCase() 같은 메서드는 기존 문자열을 수정하는 것이 아니라 새 문자열을 반환하는 것이다.
+
+// 3.3.4 템플릿 리터럴
+// 백틱으로 감싼 문자열 리터럴
